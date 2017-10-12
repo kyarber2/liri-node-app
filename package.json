@@ -1,0 +1,26 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "liri-bot",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyarber2/liri-node-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kyarber2/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/kyarber2/liri-node-app#readme",
+  "dependencies": {
+    "enquirer": "^1.0.2",
+    "node-spotify-api": "^1.0.7",
+    "prompt-radio": "^1.2.1",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
+}
