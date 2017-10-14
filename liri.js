@@ -79,7 +79,9 @@ request(queryUrl, function (error, response, body) {
 	
 
 	function getMusic(){
-		spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
+		var song = process.argv[3];
+		console.log("Please enter: node liri.js movie-this <'song title'>");
+		spotify.search({ type: 'track', query: song }, function(err, data) {
  	 	if (err) {
     	return console.log('Error occurred: ' + err);
  		 }
