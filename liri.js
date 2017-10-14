@@ -80,7 +80,7 @@ request(queryUrl, function (error, response, body) {
 
 	function getMusic(){
 		var song = process.argv[3];
-		console.log("Please enter: node liri.js movie-this <'song title'>");
+		console.log("Please enter: node liri.js spotify-this-song <'song title'>");
 		spotify.search({ type: 'track', query: song }, function(err, data) {
  	 	if (err) {
     	return console.log('Error occurred: ' + err);
