@@ -14,18 +14,19 @@ var movieName = '';
 //possibly add in radio buttons
 function firstCommand(command){
 	var command = process.argv[2]
-		console.log("Choose a command: my-tweets, spotify-this-song, movie-this, do-what-it-says");
+		console.log("Choose a command: my-tweets, spotify-this-song, movie-this");
+			//do-what-it-says");
 	if (command === "my-tweets"){
-		console.log("command: my-tweets");
+		//console.log("command: my-tweets");
 		getTweets();
 	}else if (command === "spotify-this-song" ){
-		console.log("command: spotify-this-song");
+		//console.log("command: spotify-this-song");
 		getMusic();
 	}else if (command === "movie-this") {
 		//console.log("Enter the name of a movie");
 			movieQuery();
 	}else if (command === "do-what-it-says"){
-		console.log("command: do-what-it-says");
+		console.log("command: do-what-it-says doesn't work yet. Sorry!");
 	 };
 	//else {
 	// 	console.log("Please choose a valid command.")
